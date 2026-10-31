@@ -1,0 +1,28 @@
+{
+  "BD190B17": {
+    "id": "BD190B17",
+    "name": "DESKTOP-GA7OAJ9",
+    "type": "PC",
+    "ip": "192.168.31.86",
+    "mac": "4E:EB:BD:19:0B:17",
+    "registered_at": "2026-10-25T20:16:19.942366",
+    "last_seen": "2026-10-30T15:11:07.717684",
+    "is_active": true,
+    "metadata": {
+      "auto_registered": true
+    }
+  },
+  "PH-SU0M2Z": {
+    "id": "PH-SU0M2Z",
+    "name": "📱 Linux aarch64",
+    "type": "Phone",
+    "ip": "",
+    "mac": "",
+    "registered_at": "2026-10-25T20:33:30.540909",
+    "last_seen": "2026-10-25T21:04:08.550597",
+    "is_active": true,
+    "metadata": {
+      "registered_via": "ws"
+    }
+  }
+}

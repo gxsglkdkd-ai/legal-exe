@@ -1,0 +1,32 @@
+app:
+  name: "MinecraftRemoteChat"
+  version: "1.2.0"
+
+# Режим работы:
+#   "local" — эмуляция клавиатуры на ПК (нужен запущенный Minecraft)
+#   "rcon"  — через RCON-сервер (клиент MC на ПК не нужен)
+mode: "local"
+
+rcon:
+  host: "127.0.0.1"
+  port: 25575
+  password: "CHANGE_ME_STRONG_PASSWORD"
+  timeout: 5
+
+web_server:
+  host: "0.0.0.0"
+  port: 8080
+  cors_origins: ["*"]
+
+device_registry:
+  file: "devices.json"
+  auto_register_host: true
+  cleanup_inactive_days: 30
+
+local_input:
+  chat_key: "t"
+  send_key: "enter"
+  focus_delay: 0.5
+  type_delay: 0.03
+  failsafe: true
+  use_pynput: true
